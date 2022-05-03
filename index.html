@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content" id="content">
+        <form  class="formulario" id="formulario">
+            <div class="cabecalho" id="cabecalho">
+                <h1>Cadastro</h1>
+                <h3>cadastre-se aqui:</h3>
+            </div>
+            <div class="nome" id="nome">
+                <h3>digite seu nome completo:</h3>
+                <input type="text" class="nomeCompleto" id="nomeCompleto">
+            </div>
+            <div class="cpf" id="cpf">
+                <h3>digite seu cpf:</h3>
+                <input type="text" class="cpfInput" id="cpfInput" maxlength="14">
+            </div>
+            <div class="rg" id="rg">
+                <h3>digite seu rg:</h3>
+                <input type="text" class="rgInput" id="rgInput" maxlength="12">
+            </div>
+            <div class="sexo" id="sexo">
+                <h3>informe seu sexo</h3>
+                    <select class="SexoMF" id="sexoMF">
+                        <option value="">--- selecione uma dessas opçoes</option>
+                        <option value="Sexo
+                        M">Masculino</option>
+                        <option value="sexoF">Feminino</option>
+                    </select>
+                
+            </div>
+            <div class="eSivil" id="eSivil">
+                <h3>informe seu estado Civil: </h3>
+                <select name="estadoCivil" id="eSivilSelect">
+                    <option value="">--- selecione uma dessas opçoes</option>
+                    <option value="solteiro">solteiro</option>
+                    <option value="casado">Casado</option>
+                    <option value="relacionamento">
+                        em relacionamento
+                    </option>
+                </select>
+            </div>
+            <div class="email" id="email">
+                <h3>digite seu email:</h3>
+                <input type="text" class="emailInput" id="emailInput">
+            </div>
+            <div class="celTel" id="celTel">
+                <h3>digite seu numero aqui:</h3>
+                <input type="text" class="celTelInput" id="celTelInput" maxlength="15">
+            </div>
+            <div class="btnValidar" id="btnValidar">
+                <button onclick="validar()"><H3>ENVIAR</H3></button>
+            </div>
+
+        </form>
+    </div>
+
+    
+</body>
+<script src="script.js"></script>
+</html>

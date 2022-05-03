@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    border: none;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+body{
+    background-color: rgb(209, 151, 27);
+}
+
+
+form{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    background-color: rgb(47, 143, 212);
+    width: 30%;
+}
+
+h1{
+    
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nomeCompleto, .cpfInput, .rgInput, .emailInput, .celTelInput{
+    width: 95%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    border-radius: 15px;
+    height: 25px;
+    
+}
+.email{
+    margin-top: 15px;
+}
+
+.eSivil{
+    margin-top: 15px;
+}
+
+select{
+    width: 95% ;
+    height: 25px;
+    margin-left: 15px;
+}
+
+button{
+    width: 100%;
+    border-radius: 11px;
+    height: 50px;
+    cursor: pointer;
+
+}
+
+label{
+    font-size: 20px;
+}
+
+.maleInput, .femaleInput{
+    min-width: 15px;
+    min-height: 15px;
+    margin-right: 2px;
+    margin-left: 45%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
